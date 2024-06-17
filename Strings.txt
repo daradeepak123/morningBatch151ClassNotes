@@ -1,0 +1,111 @@
+
+
+
+Agenda
+	1. String  
+		is a class
+			it have some methods
+		1. String is a character sequence combination
+		2. String can store bulk data at a time
+		3. String is a class
+		4. String class have lot of methods in it
+		5. String have pooled memory
+			StringBuffer
+			StringBuilder
+		
+
+String ss="hello";
+String a="hello";
+String str=new String("hello");
+String str1=new String("hello");
+ 
+	2. String Functions	
+	3. Examples 
+
+
+
+int a=100,b=1000;
+
+a==b;
+a<=b;
+
+
+
+
+Printing patterns
+
+String str="hello";
+
+syso(str);  -> hello
+
+h
+e
+l
+l
+o
+
+olleh
+
+o
+l
+l
+e
+h
+
+
+String reverse patterns
+
+
+hello
+
+olleh
+
+
+olleh
+
+palindrome 
+
+mom mom
+
+dad dad
+
+madam madam
+
+and  dna
+
+
+String sent="mom and dad are going to meet madam";
+
+
+
+String wor[]=sent.split(" ");
+
+
+for(String ss:wor)
+{
+
+
+
+
+}
+
+
+duplicate checking
+
+
+String str="hello";
+
+
+int fIndex=str.indexOf('h');
+
+int lIndex=str.lastIndexOf('h');
+
+if(findex==lIndex)
+{
+	syso(not duplicating);
+}
+else
+{
+syso( duplicating);
+}
+

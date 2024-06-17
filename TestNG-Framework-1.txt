@@ -1,0 +1,52 @@
+
+
+Agenda
+	1. Generic methods	
+	2. Excel methods	
+	3. File methods
+	4. Business methods
+
+public void clickElement(String xpath)
+{
+webelement btn=driver.findelement(By.xpath(xpath));
+WebDriverWait wait=new WebDriverWait(Duration.ofSeconds(10));
+Boolean b=btn.isdisplayed();
+b&=btn.isEnabled();
+if(b)
+{
+try{
+wait.until(ExpertedConditions.elementToBeClickable(btn));
+
+btn.click();
+}
+catch(ElementNotClickable e)
+{
+JavaScriptExecutor e;
+
+}
+}
+else
+{
+Syso("not able to click on button")
+}
+}
+
+
+
+
+Assignment
+	1. Create all the generic methods
+		120 methods
+		click you have 3 methods
+		send keys
+		getData
+		getTitle
+		geturl
+		
+
+
+
+
+
+
+

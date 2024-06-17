@@ -1,0 +1,62 @@
+
+
+Agenda
+	1. WebElement Methods
+
+driver.findElement(By.xpath("//tag[@att='value']")).sendKeys("helo");
+
+
+
+
+
+	2. Action class
+	3. functional flows	
+	4. TimeOuts
+		1. implicitly wait
+		2. explicitly wait
+		3. fluent wail
+
+
+
+
+	5. Screenshots
+	6. WebElements
+	7. windowHandle
+	8. windowhandles
+	9. maven project
+	10. frames
+	11. alerts
+
+
+
+types of webELement
+	1. textbox      sendKyes  clear
+	2. button	click
+	3. hyperlinks   click
+	4. rButton  	click
+	5. checkboxex   isselected and click
+	6. table elements gettext
+	7. dropdown     is different pattern
+	8. graphs       depends fetch text
+	9. drag elements actions class
+	10.images       dimensions 
+	11. upload      sendKeys
+	12. download    click
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

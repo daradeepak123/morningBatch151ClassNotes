@@ -1,0 +1,45 @@
+
+
+
+Agenda
+	1. Introduction to selenium
+		
+
+
+	components of selenium
+		1. Selenium IDE
+		2. Selenium RC
+		3. Selenium WebDriver 
+		4. Selenium Grid
+
+
+
+		
+	2. SetUp 
+		go to google
+			search with selenium download  (https://www.selenium.dev/downloads/)
+			download Selenium java libs and selenium standalone
+			import to the project
+
+
+
+WebDriver is a interface
+	unimplemented methods
+
+		just body not implementation
+	
+	in the child class
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

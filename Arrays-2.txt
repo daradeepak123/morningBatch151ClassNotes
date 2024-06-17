@@ -1,0 +1,147 @@
+
+
+
+Agenda
+	1. Arrays examples 
+	2. 2 dimensional arrays
+
+
+Array as parameter
+array as return type
+
+
+
+
+int abc[][]=new int[10][10];
+
+
+
+I need an array with 1-100 numbers
+
+
+in that even numbers should be stored in even array and odd numbers should be stored in odd array
+
+int num[]=new int[100];
+
+
+
+
+int even[]=new int[50];
+
+
+1 1  1
+2 2 2
+3 1 1
+4 5 
+5
+5
+
+
+int odd[]=new odd[50];
+
+
+
+int a[]=new int[10];
+int b[]=new int[100];
+
+for(int i=0;i<a.length;i++)
+{
+a[i]=i+1;
+
+}
+
+for(int i=0;i<a.length;i++)
+{
+b[i]=a[i];
+}
+
+
+
+package arraysLearn;
+
+public class ArrayParameter {
+	
+	
+	public static int[] evenArray(int abc[])
+	{
+		int count=0;
+		for(int i=0;i<abc.length;i++)
+		{
+			if(abc[i]%2==0)
+			{
+				count++;
+			}
+		}
+		
+		int evenArr[]=new int[count];
+		count=0;
+		for(int i=0;i<abc.length;i++)
+		{
+			if(abc[i]%2==0)
+			{
+				evenArr[count++]=abc[i];
+			}
+		}
+		
+		return evenArr;
+	}
+	
+	
+	
+
+	public static void main(String[] args) {
+
+		
+		
+		int a[]=new int[100];
+		
+		for(int i=0;i<a.length;i++)
+		{
+			a[i]=i+1;
+		}
+		
+		
+		int even[]=evenArray(a);
+		
+		for(int abc:even)
+		{
+			System.out.println(abc);
+		}
+		
+	}
+
+}
+
+
+
+Assignment
+	1. work with odd even arrays	
+	2. Transfer one arrays data to another array
+		a. As it is transfer
+		b. transfer in reverse order
+	3. Add 2 arrays and store the output in another array
+	4. subtract 2 arrays and store the output in another array
+	5. multiply 2 arrays and store the output in another array
+	6. Add all the values in array and print 
+	7. sort the array with logic
+			int abc[]={10,33,1,66, 90,1000,0};
+		a. ascending 
+		b. descending 
+	8. Work with 2 dimensional arrays
+	9. Arrays with parameters and return type
+
+Note: Include all the datatypes 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

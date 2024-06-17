@@ -1,0 +1,84 @@
+
+
+Agenda 
+	1. return type
+	2. constructor
+		a. is building object
+		b. looks like a method but it is not a method
+		c. it will not have returntype
+		d. class name and constructor name should be same
+		e. we can have default constructor
+		d. constructors can have parameters
+		f. constructors can be many in single class
+		g. constructors cannot be static
+		h. constructors are used to assign class level variables
+		i. constructors are invoked but not called
+
+
+class ABC
+{
+ABC oo=new ABC();
+
+}
+		
+
+
+
+public static <datatype/class/interface> hello()
+{
+some actions
+return some integer value(10);
+}
+
+p s v m(S args[])
+{
+
+int abc=hello();
+syso(abc);
+
+int a=sum(100,100);
+syso(a);
+}
+
+public int sum(int a,int b)
+{
+int c=a+b;
+return c;
+}
+
+Assignment
+	1. Create 8 methods
+		a. return all the datatypes 
+		b. print all values
+		c. give return values as input for another methods
+		
+
+
+public byte addByte(byte a,byte b)
+{
+logic
+return 100;
+}
+public short addshort(short a, short b)
+{
+return 100;
+}
+
+p s v m(S args[])
+{
+int abc=addshort(addByte(20,20),addByte(40,20));
+syso(abc);
+
+syso(100000);
+
+}
+
+
+
+
+
+
+
+
+
+

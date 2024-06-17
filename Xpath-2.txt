@@ -1,0 +1,67 @@
+
+
+
+Agenda
+	1. xpath
+
+just with tag
+tag and attribute
+tag and mul attribute
+with text()
+	3 types
+
+with relations
+
+parent
+child
+
+
+//d[@id='123']/preceding-sibling::c/ab
+//d[@id='123']/parent::b/following-sibling::cc
+
+
+//d/following-sibling::c/parent::b/child::d
+<a>
+	<b>	
+		<d id=123></d>
+		<c>
+				<ab></ab>
+		</c>
+		
+		
+		
+	</b>
+	<cc></cc>
+
+</a>
+
+
+//d[@id='123']/preceding-sibling::c/parent::b/child::d
+
+//table[@id='table1']/child::tbody/child::tr[4]/child::td[1]
+
+
+//td[text()='Conway']
+
+
+
+
+/ and //
+
+
+https://the-internet.herokuapp.com/tables
+
+
+* in xpath
+
+
+//*
+
+
+
+
+
+
+
+
+

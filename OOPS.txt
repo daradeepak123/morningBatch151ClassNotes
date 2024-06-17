@@ -1,0 +1,21 @@
+
+
+Agenda
+	1. Access modifiers 
+	2. Inheritance 
+
+		a. single level
+		b. multi level
+		c. hierarchical inheritance
+		d. hybrid inheritance
+
+
+
+	3. polymorphism
+
+
+Assignment
+	1. Work with accessmodifiers in different levels
+	2. create 10 examples with inheritance using our previous programs
+
+	

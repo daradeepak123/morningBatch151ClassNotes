@@ -1,0 +1,30 @@
+
+
+Agenda
+	1. variables and datatypes
+	2. static
+
+
+
+local   it will be inside the method
+global  it will be in the class out of the method it will have static keyword
+instance it will be in the class out of the method it will not have static keyword
+
+
+static constant stable will not change
+
+
+Assignment
+	1. Create all types of variables 
+		a. call all the variables using objects
+		b. call non static methods with object
+		c. call static methods to non static methods
+		d. call static variables to non static methods
+		e. call non static method to static method with out object
+
+
+
+
+
+
+

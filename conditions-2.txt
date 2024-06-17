@@ -1,0 +1,301 @@
+
+
+Agenda
+	1. Nested If
+	2. Switch Case
+	3. debug mode
+
+
+int a=1;
+
+switch()
+{
+
+case 1:
+{
+syso("monday");
+break;
+}
+case 2:
+{
+syso("tuesday");
+break;
+}
+default
+{
+
+}
+
+}
+
+
+
+
+
+
+Army job application
+	age 18-24    17
+	education inter inter
+	percentage 70  77
+	gender     male
+		male
+			height 170 cms   180cms
+			weight 70     75
+			physical fitness should be good
+			mental fitness should be good
+		female
+			height 145 cms
+			weight 50
+			physical fitness should be good
+			mental fitness should be good
+
+
+
+if(areaType.equals("city"))
+{
+   if(typeApplience.equals(commercial))
+   {
+   }
+   else if(typeApplience.equals(industries))
+   {
+   }
+   else if(home)
+   {
+   }
+   else
+   {
+    syso(Please select proper option commercial/industries/home);
+   }
+
+}
+
+
+
+
+if i stay in cities charges are different
+	commercial 
+	industries
+	home
+
+
+	if(units >=0 & units<=100)
+	{
+		System.out.println(name+", you need to pay "+ units*5);
+	}
+	else if(units>100 & units<=200)
+	{
+		System.out.println(name+", you need to pay "+ units*5.5);
+	}
+	else if(units>200 & units<=300)
+	{
+		System.out.println(name+", you need to pay "+ units*7);
+	}
+	else if(units>300 & units<=500)
+	{
+		System.out.println(name+", you need to pay "+ units*10);
+	}
+	else if(units>500)
+	{
+		System.out.println(name+", you need to pay "+ units*15);
+	}
+
+
+if i stay in town charges are different
+if i stay in village charges are different
+
+
+
+
+
+ref 
+
+
+package conditions;
+
+import java.util.Scanner;
+
+public class ElectricityBilling {
+
+	public static void main(String[] args) {
+
+
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("enter your name");
+		String name=sc.next();
+		System.out.println("enter current month reading");
+		int cMonthReading=sc.nextInt();
+		System.out.println("enter last month reading");
+		int lMonthReading=sc.nextInt();
+
+		int units=cMonthReading-lMonthReading;
+		System.out.println("enter your area city/town/rural");
+		String area=sc.next();
+		System.out.println("enter applience type");
+		String applType=sc.next();
+
+		if(area.equals("city"))
+		{
+			if(applType.equals("industries"))
+			{
+				if(units >=0 & units<=100)
+				{
+					System.out.println(name+", you need to pay "+ units*5);
+				}
+				else if(units>100 & units<=200)
+				{
+					System.out.println(name+", you need to pay "+ units*7.5);
+				}
+				else if(units>200 & units<=300)
+				{
+					System.out.println(name+", you need to pay "+ units*10);
+				}
+				else if(units>300 & units<=500)
+				{
+					System.out.println(name+", you need to pay "+ units*15);
+				}
+				else if(units>500)
+				{
+					System.out.println(name+", you need to pay "+ units*20);
+				}
+			}
+			if(applType.equals("commercial"))
+			{
+				if(units >=0 & units<=100)
+				{
+					System.out.println(name+", you need to pay "+ units*4);
+				}
+				else if(units>100 & units<=200)
+				{
+					System.out.println(name+", you need to pay "+ units*6);
+				}
+				else if(units>200 & units<=300)
+				{
+					System.out.println(name+", you need to pay "+ units*8);
+				}
+				else if(units>300 & units<=500)
+				{
+					System.out.println(name+", you need to pay "+ units*10);
+				}
+				else if(units>500)
+				{
+					System.out.println(name+", you need to pay "+ units*12);
+				}
+			}if(applType.equals("home"))
+			{
+				if(units >=0 & units<=100)
+				{
+					System.out.println(name+", you need to pay "+ units*3);
+				}
+				else if(units>100 & units<=200)
+				{
+					System.out.println(name+", you need to pay "+ units*4);
+				}
+				else if(units>200 & units<=300)
+				{
+					System.out.println(name+", you need to pay "+ units*5);
+				}
+				else if(units>300 & units<=500)
+				{
+					System.out.println(name+", you need to pay "+ units*8);
+				}
+				else if(units>500)
+				{
+					System.out.println(name+", you need to pay "+ units*10);
+				}
+			}
+			
+
+		}
+		else if(area.equals("town"))
+		{
+			if(units >=0 & units<=100)
+			{
+				System.out.println(name+", you need to pay "+ units*2.5);
+			}
+			else if(units>100 & units<=200)
+			{
+				System.out.println(name+", you need to pay "+ units*3.5);
+			}
+			else if(units>200 & units<=300)
+			{
+				System.out.println(name+", you need to pay "+ units*5);
+			}
+			else if(units>300 & units<=500)
+			{
+				System.out.println(name+", you need to pay "+ units*7);
+			}
+			else if(units>500)
+			{
+				System.out.println(name+", you need to pay "+ units*10);
+			}
+		}
+		else if(area.equals("rural"))
+		{
+			if(units >=0 & units<=100)
+			{
+				System.out.println(name+", you need to pay "+ units*2.5);
+			}
+			else if(units>100 & units<=200)
+			{
+				System.out.println(name+", you need to pay "+ units*3.5);
+			}
+			else if(units>200 & units<=300)
+			{
+				System.out.println(name+", you need to pay "+ units*5);
+			}
+			else if(units>300 & units<=500)
+			{
+				System.out.println(name+", you need to pay "+ units*7);
+			}
+			else if(units>500)
+			{
+				System.out.println(name+", you need to pay "+ units*10);
+			}
+		}
+		else 
+		{
+			System.out.println("please enter proper input city/town/rural");
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+Assignment
+	1. Complete structure of electricity billing using nested if
+		based on area prices will change
+		based on type of applianceType prices will change
+	
+if i stay in city charges are different and purpose can be (ind/com/hom)
+	if ind prices will be different
+		logic for calculation 
+	if com prices will be different 
+		logic for calculation 
+	if hom prices will be different 
+		logic for calculation 
+	
+if i stay in town charges are different
+	if ind prices will be different
+		logic for calculation 
+	if com prices will be different 
+		logic for calculation 
+	if hom prices will be different 
+		logic for calculation 
+if i stay in village charges are different
+	if ind prices will be different
+		logic for calculation 
+	if com prices will be different 
+		logic for calculation 
+	if hom prices will be different 
+		logic for calculation 
+	2. Write a program for home appliance using switch cases
+
+
+

@@ -1,0 +1,60 @@
+
+
+Agenda
+	1. Introduction
+	2. What is Testing
+	3. Importance of testing
+		XYZ
+			10
+				1    1year 10 years
+				
+
+
+	4. Types of Testing
+	
+		1. functional testing
+			a. manual testing
+				1. smoke testing
+				2. functional testing
+				3. sanity test
+				4. re-testing
+				5. regression testing
+				6. adhoc
+				7. trail and error testing
+			b. automated testing
+		2. non functional testing
+			a. performance
+			b. load test
+			c. Stress
+			d. Security
+			e. cookie 
+			f. compact
+			g. session
+
+
+
+
+	5. Regression Testing
+	6. Current Market
+
+
+
+
+
+1. Core Java
+2. html Basics
+3. Selenium WebDriver
+4. TestNG
+5. Maven
+6. Page Object Model
+7. DataDriven framework
+8. KeyWordDriven Framework
+9. Hybrid Framework and pageObject model integration
+10. Cucumber
+11. Git and github
+12. Jenkins
+
+
+
+
+

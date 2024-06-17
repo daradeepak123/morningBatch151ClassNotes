@@ -1,0 +1,76 @@
+
+
+Agenda
+	1. Locators
+		a. id    limitation 
+		b. name  limitation
+		c. class limitation
+		d. tag   limitation
+		e. linktext  limitation
+		f. prtiallinktext  limitation
+		g. cssSelectors   not having limitations
+		h. xpath     
+
+
+findElement
+findElements
+
+
+
+OrangeHRM, Inc    OrangeHRM, Inc
+
+
+What are we locating?
+What do you mean by WebElement
+
+
+
+
+cssSelector
+
+id
+
+#idValue
+
+driver.findElement(By.cssSelector("#email"));
+
+id and tag combination
+
+driver.findElement(By.cssSelector("input#email"));
+
+class
+.value
+driver.findelement(By.cssSelector(".inputtext _55r1 _6luy"));
+
+
+class and tag combination
+
+driver.findelement(By.cssSelector("input.inputtext _55r1 _6luy"));
+
+multiple attribute combination
+
+
+<input class="abc" type="xyz2" name="hell2"></input>
+<input class="abc1" type="xyz" name="hell"></input>
+<input class="abc1" type="xyz2" name="hell"></input>
+<button class="abc1" type="xyz1" name="hell1"></button>
+<button class="abc" type="xyz" name="hell"></button>
+<button class="abc1" type="xyz1" name="hell1"></button>
+
+tag[attribute=value]
+
+input[id=email]
+
+input[class=abc1][type=xyz2]
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+
+
+Agenda
+	1. Screen shots
+	2. Alerts
+		1. accept the alerts
+		2. accept/dismiss
+		3. enter choice and accept
+			dismiss
+		4. gettext from the alert
+
+	3. WebElements
+	4. WindowHandles
+
+
+
+
+WebElement
+WebElements
+
+findElement()       WebElement
+findElements()	    List<WebElement>
+
+
+WEbELement ele=driver.findElement(By.xpath("abcajsnk"));
+
+List<WebELement> lst=driver.findElements(By.xpath("//a"))
+
+for(WebElement ele:lst)
+{
+syso(ele.getText(););
+}
+
+
+
+
+
+List<String> ss=new ArrayList<String>();
+
+for(String s:ss)
+{
+syso(s);
+
+
+}
+
+
+p s List<String> hello()
+{
+List<String> str=new ArrayList<>();
+
+return str;
+}
+
+p s v m()
+{
+
+List<String> s=hello();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

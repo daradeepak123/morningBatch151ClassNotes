@@ -1,0 +1,128 @@
+
+
+Agenda
+	1. Strings examples
+	2. OOPS concepts
+
+
+	String str="hello";
+	syso(str.replaceAll("l","a"));
+
+for(int i=0;i<str.length();i++)
+{
+if(str.charAt(i)=='l')
+{
+System.out.print('p');
+}
+else
+{
+System.out.print(str.charAt(i));
+}
+
+}
+
+
+Reverse a string and replace a specific character
+
+2. Character based
+
+	a. uppercase to lower case
+	b. lowercase to upper case
+
+
+String str="Mom and Dad are going to Get race car";
+syso(str.toUpperCase());
+syso(str.toLowerCase());
+
+
+for(int i=0;i<str.length();i++)
+{
+
+if(Character.isUpperCase(str.charAt(i)))
+{
+syso(CHaracter.toLowerCase(str.charAt(i)));
+}
+else
+{
+syso(CHaracter.toUpperCase(str.charAt(i));
+}
+
+
+}
+
+
+Character category 
+	String str="forum Mall, second Street, Roadno-2, doorno 11-234/2";
+
+
+
+
+
+OOPS concepts
+	1. Class
+		
+	2. method
+	3. object
+		a. state
+		b. behaviour
+	4. inheritance
+		1. single level
+		2. multi level
+		3. hierarchical 
+		4. Hybrid 
+	5. polymorphism
+		a. static and compile time and method overloading
+		b. dynamic and runtime and method overriding
+	6. abstraction
+		a. abstract keyword
+		b. abstract method
+		c. abstract class
+		d. Interface
+
+	7. encapsulation
+		a. access modifiers
+			a. public
+			b. default
+			c. protected
+			d. private
+			e. final keyword
+		b. getters and setters
+
+
+bank
+
+bankBal
+{
+bal
+name
+
+}
+
+custom
+{
+bankBal.bal=108921349821349129841;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+Assignment
+	1. Reverse a string and replace a specific character
+	2. find duplicated characters in string and reverse the string
+	3. Convert all the characters to
+		a. uppercase
+		b. lowercase
+	    Note: no use of direct functions
+	4. 	
+
+
+
+

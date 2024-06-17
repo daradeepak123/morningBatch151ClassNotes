@@ -1,0 +1,67 @@
+
+
+Agenda
+	1. Cucumber / BDD FW
+
+
+page object model?
+	page classes
+	
+
+
+1. Open Browser
+2. Launch URL
+3. Uname enter
+4. pwd enter
+5. click on button
+
+
+Given When Then And
+
+
+Given USer should open Browser
+And launch the URL
+Then ENter username and password
+When Click on Login
+When User should be logged in successfully
+
+
+
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.11.2</version>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.11.2</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>26.2.0</version>
+</dependency>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-html -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-html</artifactId>
+    <version>0.2.7</version>
+</dependency>
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+
+
+Agenda
+	1. Cucumber
+		Fearute and it components
+	2. with Selenium
+
+
+
+Big module
+	scenarios  positive negative trail and error

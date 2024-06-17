@@ -1,0 +1,92 @@
+
+
+
+Agenda
+	1. Loops
+		a. simple for loop
+		b. for each loop  (hold)
+		c. while loop
+			initilize
+			while(true/false)
+			{
+				statements;
+				inc/dec;
+			}
+		d. do while loop
+		e. Nested loop
+
+
+Simple for loop
+
+for(initialize; condition; increment/decrement)
+{
+
+}
+
+int a=10;
+a++;
+syso(a);
+
+for (int i=1; i<=20; i++)
+{
+systements ; 
+}
+
+I wanted to print even numbers from numbers between 200 -500
+
+
+for(int i=200; i<=500; i++)
+{
+if(i%2==0)
+{
+syso("this is a even number "+i);
+}
+i++;
+}
+
+
+
+I wanted to print 5 table till 20
+
+
+for(int i=1;i<=20;i++)
+{
+syso("5*"+i+"="+i*5);        5*1=5      5*2=10
+}
+
+5*1=5
+5*2=10
+
+I wanted to know given number is prime number or not
+
+
+5
+
+97
+
+97%2==0 than it is not a prime num
+97%3==0 than it is not a prime
+97%4==0 than it is not a prime
+97%5==0 than it is not a prime
+
+97%96==0
+
+
+
+97
+
+for(int i=2;i<97;i++)
+{
+if(97%i==0)
+{
+syso("this is not a prime number");
+}
+}
+
+
+
+
+
+
+
+

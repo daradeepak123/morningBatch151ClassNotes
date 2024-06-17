@@ -1,0 +1,31 @@
+
+
+
+Agenda
+	1. Employee class
+		variables
+		objects
+		methods
+	2. method with parameter
+
+static int abc;		
+p s v add(int x,int y)
+{
+abc=x;
+int b=y;
+syso(abc+b);
+syso(x+y);
+}
+
+p s v m(S args[])
+{
+add(100,100);   100 100   200
+add(0,1000); 	0 1000  1000
+
+}
+
+
+
+
+
+

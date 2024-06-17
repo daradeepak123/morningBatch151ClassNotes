@@ -1,0 +1,82 @@
+
+
+Agenda
+	1. Assertions
+		1. Hard asserts
+		2. soft asserts
+	2. Data-Provider
+	3. Logs
+	4. TestAnnotation parameters 
+	5. PageObject Model
+
+
+
+1. Open browser
+2. Load URL
+3. Enter Uname
+4. Enter Password
+5. click on login
+6. calculator 
+	a. add 10 10
+	b. add 50 50
+	c. add 60 50 100
+	d. sub 100 10
+	e. sub 10 100
+
+
+
+
+driver.fE().sK("Admin");
+driver.fE().sK("admin123");
+driver.fE().click();
+
+validation
+
+Asserts
+
+
+@dataProvider
+public Object[][] dp()
+{
+
+return new {{"abc",1,true},{"abcd",77,false},{"abcde,1,true},{"abcc",10,true}}
+}
+
+@Test(DataProvider="dp")
+public void hello(String s,int i,boolean b)
+{
+
+d.fE().sK(s);
+d.fE().sK(i);
+d.fE().sK(b);
+d.fE().click();
+
+
+}
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.17.1</version>
+</dependency>
+
+ 
+ <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.17.1</version>
+</dependency>
+ 
+
+
+
+
+
+
+
+

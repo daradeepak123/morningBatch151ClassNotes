@@ -1,0 +1,12 @@
+
+
+
+Agenda
+	1. Iframes
+	2. WindowHandle
+	3. WindowHandles
+	4. Read Data from excel
+	5. read data from property file
+
+
+Method for selenium code!

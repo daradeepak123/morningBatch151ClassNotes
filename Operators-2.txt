@@ -1,0 +1,59 @@
+
+
+Agenda
+	1. Operators
+		
+		logical operator
+			& represents and operator 
+			| represents or operator
+			! represent not operator
+and gate   or gate not gate 
+
+
+
+all the conditions need to be true
+
+
+any one condition is true all the condition will be true
+
+reverse
+
+
+A	B	A or B	A and B	!A	!B
+TRUE	TRUE	TRUE	TRUE	FALSE	FALSE
+TRUE	FALSE	TRUE	FALSE	FALSE	TRUE
+FALSE	TRUE	TRUE	FALSE	TRUE	FALSE
+FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+
+
+
+
+
+
+
+		Assignment operators
+			=, += -= *= /= %= |=  &= !=
+
+int xyz=400;
+
+xyz%=600;
+
+syso(xyz);
+
+ 
+		incremental  (++)
+			post increment	
+			pre increment
+		decremental (--)
+			post decrement
+			pre decrement
+
+			++ --
+
+1 int a=20;
+2 ++a;	
+3 syso(a);			
+
+
+	2. Scanner class
+		

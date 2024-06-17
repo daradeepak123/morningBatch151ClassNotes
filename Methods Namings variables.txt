@@ -1,0 +1,59 @@
+
+
+
+Agenda
+	1. Recap
+	2. Naming conventions
+	3. Methods
+
+
+void welcome()
+{
+	System.out.println("We will get started by 7:00 AM IST");
+	System.out.println("We will train you with core Java");
+	System.out.println("We will train you with Selenium");
+	System.out.println("*****************************");
+	
+}
+
+
+main()
+{
+System.out.println("Hello student1, Welcome to quality thought");
+welcome();
+
+System.out.println("Hello student2, Welcome to quality thought");
+welcome();
+
+System.out.println("Hello student3, Welcome to quality thought");
+welcome();
+
+System.out.println("Hello student n, Welcome to quality thought");
+welcome();
+
+
+}
+
+
+
+
+com.amazon
+	com.amazon.search
+
+
+com.flipKart
+
+
+WE created a project
+	-> package
+		-> class
+
+
+Assignment
+	1. Create 5 packages
+		a. create 5 classes each package
+			1. welcome message for students
+			2. rules for our class
+			3. technologies we learn
+
+

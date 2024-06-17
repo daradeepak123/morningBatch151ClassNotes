@@ -1,0 +1,259 @@
+
+Agenda
+	1. Polymorphism
+		a. overloading static compile time
+		b. overriding  dynamic runtime
+			1. it cant deal with statics
+
+
+class A
+{
+public void hello()
+{
+syso(hi hi);
+}
+
+public void hello(int a)
+{
+syso(hello hello)
+}
+public static void abc()
+{
+syso(abc);
+
+
+p s v m()
+{
+}
+}
+
+}
+
+Class B extends A
+{
+
+public void hello()
+{
+syso(this is hello);
+}
+public static void abc()
+{
+syso(cba);
+
+System.out.println(10);
+System.out.println('@');
+System.out.println("hello");
+
+
+Scanner sc=new Scanner(S.in);
+
+int a=sc.nextInt();
+String s=sc.next();
+
+
+
+}
+
+p s v m(S a[])
+{
+
+abc();
+
+}
+
+}
+
+
+
+	2. Abstraction
+		a. abstract method
+			1. abstract methods do not have body
+			2. abstract methods can be present only in abstract class and interface
+			3. abstract methods cannot be present in normal class(i mean non-abstract class)
+			4. abstract methods need to be overridden
+			5. abstract methods cannot be static 
+		b. abstract class
+			1. it can accept both types of methods (abstract and non abstract)
+		c. interface
+			1. is also like a class but it is not a class
+			2. you cannot have a constructor for interface
+			3. you cannot create object for interface
+			4. interface can be implemented
+			5. implements keyword is used to inherit the methods and variables to child
+			6. interface cannot have non static normal methods
+			7. default method can be create in interface
+			8. static methods can be created in interface
+
+
+
+public abstract class A{
+
+public abstract void hello();
+
+public void hel()
+{
+
+}
+
+}
+
+
+
+
+abstract class Car
+{	
+
+public abstract void wheels4();
+public abstract void size();
+public abstract void doors4();
+public abstract void seatingcapacity();
+public abstract void windows4();
+
+public void seatbelt()
+{
+superFine
+}
+
+
+}
+
+
+
+public class tata extends car
+{
+public  void wheels4()
+{
+good quality;
+}
+public abstract void size()
+{
+big;
+}
+public void doors4()
+{
+standard;
+}
+public void seatingcapacity()
+{
+spacious 
+}
+public void windows4()
+{
+good windows quality
+}
+
+
+}
+
+
+
+
+public class Suzuki extends car
+{
+public  void wheels4()
+{
+poor quality;
+}
+public abstract void size()
+{
+small;
+}
+public void doors4()
+{
+low standard;
+}
+public void seatingcapacity()
+{
+spacious 
+}
+public void windows4()
+{
+medium windows quality
+}
+
+
+}
+
+
+
+
+
+public interface RBI
+{
+
+public void HouseLoan();
+public void VeichelLoan();
+public void PersonalLoan();
+
+}
+
+public class HDFC implements RBI
+{
+
+public void HouseLoan()
+{
+10%
+}
+public void VeichelLoan()
+{
+14%
+}
+public void PersonalLoan()
+{
+15%
+}
+}
+
+public class SBI implements RBI
+{
+
+public void HouseLoan()
+{
+8%
+}
+public void VeichelLoan()
+{
+12%
+}
+public void PersonalLoan()
+{
+15%
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

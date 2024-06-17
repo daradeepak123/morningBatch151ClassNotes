@@ -1,0 +1,39 @@
+
+
+Agenda
+	1. Recap
+	2. Object cross mapping
+	3. employee
+
+
+
+class A
+{
+int a=100;
+p v hi()
+{
+
+}
+
+p s v m(S a[])
+{
+
+}
+
+p s v hello()
+{
+A o= new A();
+o.hi();
+}
+
+
+}
+
+Assignment
+	1. Create student class and 
+		a. print all the details of students
+		b. show attendance of the students
+		c. show all assignments are done by students or not
+	
+
+

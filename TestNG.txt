@@ -1,0 +1,150 @@
+
+
+Agenda
+	1. TestNg
+
+
+
+		@BeforeSuite             open excelFiles open properties files  generate logs and reports
+		@BeforeTest              open browser
+		@BeforeCLass		 relevant for the  page
+		@Beforemethod		 before performing the test what should happen
+		@test			 actual test execution
+		@AfterMethod		 after test some clean up activity
+		@AfterClass		 perform post activity for the class
+		@AfterTest		 close the browser
+		@AfterSuite		 close all opened files publish or save logs and reports
+	
+		
+		@DataProvider
+
+
+
+1. Open testcases
+2. OpebBrowser
+3. load url
+4. EnterUsername
+5. pwd
+6. click
+7. validate
+8. logout
+9. close
+10 quit
+11 close tc
+
+
+class BaseClass
+{
+
+@BeforeSuite
+public void suiteSetUp()
+{
+open excelFiles open properties files  generate logs and reports
+}
+@BeforeTest
+public void testSetUp()
+{
+open browser
+URL
+login
+}
+
+@AfterTest
+public void closeActivity()
+{
+close opened browsers
+}
+
+@AfterSuite
+public void afterSuite()
+{
+close all opened (excel properties files DB connections)
+save the data (logs reports)
+}
+
+
+
+}
+
+
+
+
+
+Class homeTests extends BaseClass
+{
+
+@BeforeClass
+public void login()
+{
+ and pre set up
+
+}
+
+@BeforeMethod
+public void precondition()
+{
+common pre condition
+}
+
+
+@Test
+p v t1()
+{
+
+}
+@Test
+p v t1()
+{
+
+}
+@Test
+p v t2()
+{
+
+}
+@Test
+p v t3()
+{
+
+}
+@Test
+p v t4()
+{
+
+}
+@Test
+p v t5()
+{
+
+}
+
+
+@AfterMethod
+p v am()
+{
+
+}
+
+@AfterClass()
+p v aC()
+{
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

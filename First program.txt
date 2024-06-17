@@ -1,0 +1,48 @@
+
+
+Agenda
+	1. IDE
+		a. IntellJ
+		b. eclipse
+		c. NetBeans
+		d. SpringSuiteTool
+		
+	2. IDE instllation
+	3. first program
+		a. Create a java project
+	
+
+Intellesence
+Compiler
+
+
+
+intt a=100;
+
+Download and instllation
+
+
+Create a Java project
+	go to file  -> select project option (a wizard will open up)
+		Select Java  -> give meaningful name for your project name
+		Create a package under src folder
+		create a class under package folder
+			write main method
+				run the class and see the out put
+
+
+
+Assignment
+	1. COmplete all the instllations (JDK  and eclipse)	
+	2. Create 5  projects
+		IN those projects create 5 classes in each
+		run the classes 
+
+
+
+
+
+
+
+
+

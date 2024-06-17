@@ -1,0 +1,16 @@
+
+
+Agenda
+	1. Constructor
+
+		a. is building object
+		b. looks like a method but it is not a method
+		c. it will not have returntype
+		d. class name and constructor name should be same
+		e. we can have default constructor
+		d. constructors can have parameters
+		f. constructors can be many in single class
+		g. constructors cannot be static
+		h. constructors are used to assign class level variables
+		i. constructors are invoked but not called
+

@@ -1,0 +1,30 @@
+
+
+Agenda
+	1. Read Data From Excel
+
+driver.get("google1.com");
+
+
+driver.findELement(By.xpath(//abc)).sendkeys("apple");
+
+https://jar-download.com/artifacts/org.apache.poi/poi-ooxml
+https://jar-download.com/artifacts/org.apache.poi/poi
+
+
+
+
+
+
+	2. Maven Project
+
+
+
+
+
+
+
+
+
+	3. TestNG introduction
+	

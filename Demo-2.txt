@@ -1,0 +1,80 @@
+
+
+
+Agenda
+	1. Introduction with new people
+	2. Recap
+	3. What is Autoamtion testing
+	4. Tools available in the market
+		a. Cypress
+		b. Selenium
+		c. Tosca
+		d. Protractor
+		e. Katlon
+		f. QTP
+	
+	5. Why Selenium
+		a. open source tool
+		
+
+Tata
+	punch
+		apper good
+		quality good
+		milage 20kmpl
+		colors good
+		custmor review 4.5
+		cost 10l
+
+XYX
+	ABC
+		apper too good
+		quality too good
+		milage 30kmpl
+		colours good
+		review NA
+		cost 7.5l
+
+
+
+100 A TE
+
+80 people know about selenium
+20 cypress qtp so on 
+
+
+100000
+120000
+
+	6. Types of Automation testEngineers
+		
+		a. run the scripts
+		b. run and fix the scripts if any issues
+		c. design the test cases
+		d. Design frameword and design testcases
+
+
+
+
+	7. What we need to become an automation test engineers	
+
+		a. CoreJava
+		b. basics of html
+		c. Selenium basics
+		d. Data driven
+		e. Maven
+		f. KeywirdDriven
+		g. TestNG
+		h. PageObjectModel
+		i. Cucumber
+		j. GitHub
+		k. Jenkins
+
+
+
+
+
+
+
+
+

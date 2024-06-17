@@ -1,0 +1,245 @@
+
+
+Agenda
+	1. Conditions statements
+		a. conditions
+			1. simple if
+				if(true/false)
+				{	
+				statements;
+				}
+
+			2. else if
+				if(true/false)
+				{	
+				statements;
+				}
+				else
+				{
+				statements;
+				}
+			3. ladder if
+				if(true/false)
+				{
+				statements;
+				}
+				else if(true/false)
+				{
+				statements
+				}
+				else if(true/false)
+				{	
+				statements
+				}
+				else
+				{
+				statements
+				}
+
+				
+			4. Nested if
+				if(true/false)
+				{
+				     if(true/false)
+				     {
+				     }
+				}
+			5. Switch case   switch board 
+			
+if you got more than 500 than i will get you bicycle.    -> 
+
+
+Scanner sc=new Scanner(System.in);
+int marks=sc.nextInt();     //501  -> 
+
+if(true)   //      501>500 -> true
+{
+syso("you will get a bicycle");
+}
+
+if you pass in the tenth than i will send you inter college
+else i will get you auto
+
+
+Scanner sc=new Scanner(System.in);
+int marks=sc.nextInt();     //200 
+if(marks>260)   //     
+{
+syso("you will be promoted to inter");
+}
+else
+{
+syso("you need to driver auto ");
+}	
+
+
+
+father said
+	if you get more than 500 i will get you bicycle
+	if you get more than 400 i will get you outing
+	if you get more than 300 i will get you new dress
+	if you get less than 300 you need to drive auto
+
+
+Scanner sc=new Scanner(System.in);
+int marks=sc.nextInt();     //300
+if(marks>500)   //  400>500   
+{
+syso("you will get bicycle");
+}
+else if(marks>400)  //400>400 
+{
+syso("you will get outing");
+}
+else if(marks>300)  //400>300  true
+{
+syso("you will get new dress");
+}
+else 
+{
+syso("you need to driver auto");
+}
+
+
+
+Nested if -> condition inside a condition
+
+age should be grater than or equal to 18
+driving is yes/no
+
+syso("enter your age");
+int age=sc.nextint();     //20
+syso("Enter yes or no");
+String driving=sc.next(); //no
+
+	if(age>=18)   //20>=18
+	{
+		if(driving.equals("yes"))
+		{
+			syso("you are eligible for getting drivers license")
+		}
+		else
+		{
+		syso("you don't know how to driver and not eligible")
+		}
+
+	}
+
+	else
+	{
+	syso("you don't have eligibility based on age")
+	}
+
+
+
+math=100, social=100 bio=100
+
+Scanner sc=new Scanner(System.in);
+int marks=sc.nextInt();     //200 
+
+if(marks>260)   //     
+{
+
+	if(math>=social & math>=bio)
+	{
+		syso(mpc);
+	}
+	else if(social>=math & social>=bio)
+	{
+		syso(cec);
+	}
+	if(bio>=social & math<=bio)
+	{
+		syso(bipc);
+	}
+}
+else
+{
+syso("you need to driver auto ");
+}
+
+
+
+
+I wanted to check given number is odd/even
+
+
+501
+
+if given number divided/2 and
+	reminder is 0 than it is even
+	reminder is 1 than it is odd
+
+syso("enter desired number");
+int num=sc.nextInt();
+
+if(num%2==0)
+{
+syso("given number is even");
+}
+else
+{
+syso("given number is odd");
+}
+
+
+print weeks with the number
+
+ 
+
+Electricity billing 
+
+if your consumption is less than 100 units
+	consumption * 2.5
+if your consumption is greater than 100 units and less than 200 units
+	consumption * 3.5
+if your consumption is greater than 200 units and less than 300 units
+	consumption * 5
+if your consumption is greater than 300 units and less than 500 units
+	consumption * 7
+if your consumption is greater than 500 units 
+	consumption * 10
+
+
+
+10000
+
+
+10000
+
+day he will take reading
+
+20000
+
+
+25000-20000=5000
+
+20000-10000=10000
+
+
+
+
+800
+
+1600
+
+1600-800 =800
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+
+
+Agenda
+	1. Maven and it's benefits
+		Go to google
+			search with Selenium dependencies
+
+	
+
+	2. TestNG installation
+		a. Go to help 
+			go with eclipse market place
+			search with testNG and install
+		b. dependencies 
+		c. add libraries 
+
+	3. theory.
+
+		@BeforeSuite
+		@BeforeTest
+		@BeforeCLass
+		@Beforemethod
+		@test
+		@AfterMethod
+		@AfterClass
+		@AfterTest
+		@AfterSuite
+	
+		
+		@DataProvider
+
+
+
+1. Open testcases
+2. OpebBrowser
+3. load url
+4. EnterUsername
+5. pwd
+6. click
+7. validate
+8. logout
+9. close
+10 quit
+11 close tc
+
+
+
+
+
+
+
+
+
+
+
+
+

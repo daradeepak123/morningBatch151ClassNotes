@@ -1,0 +1,36 @@
+
+
+Agenda
+	1. Arrays
+		a. is collection of homogeneous data
+		b. arrays can collect large set of data with single variable
+		c. arrays practices indexes for the data stored
+		d. arrays are particular about the size.
+		e. we can create 2 dimensional arrays
+	2. for each loop
+	
+
+
+
+
+
+		
+
+Syntax of arrays
+	
+	datatype varname[]=new datatype[size];
+	
+	int abc[]=new int[10];
+	String aa[]=new String[10];
+
+
+	String xyz[]={"hello","welcome","to","quality","thought","Hyderabad","Ameerpet"};
+  
+
+
+
+int a=10;
+int b=20; 
+int c=15; 
+int d=33;
+int e=16;

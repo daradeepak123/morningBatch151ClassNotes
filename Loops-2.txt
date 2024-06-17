@@ -1,0 +1,75 @@
+
+
+Agenda
+	1. Nested loop
+
+
+int count=0;
+int icount=0;
+
+for(int i=10; i<20;i++)    10
+{
+	count++;
+	for(int j=10; j<20;j++)   10
+	{
+		icount++;
+		for( 10 20)    
+		{}
+	}
+}
+
+count is 10
+icount is 100
+
+
+
+
+Print star patterns 
+
+
+*
+* * 
+* * *
+* * * *
+for(int i=0;i<=5;i++)
+{
+for(int j=0;j<=5;j++)
+{
+System.out.print("*");
+}
+
+}
+
+
+System.out.print("*");
+System.out.println();
+System.out.print("* ");
+System.out.print("* ");
+System.out.println();
+System.out.print("* ");
+System.out.print("* ");
+System.out.print("* ");
+System.out.println();
+System.out.print("* ");
+System.out.print("* ");
+System.out.print("* ");
+System.out.print("* ");
+System.out.println();
+
+Assignment
+	1. Print 5-10 patterns
+		https://www.javatpoint.com/how-to-print-pattern-in-java
+
+
+
+
+
+
+
+
+
+
+
+
+
+

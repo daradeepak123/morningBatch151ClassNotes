@@ -1,0 +1,61 @@
+
+
+
+Agenda
+	1. WebDriver Methods
+
+
+close   void
+quite   void
+findElement  WebElement 
+findElements List<WebElements>
+get   void
+gettitle  string
+getpagesource  string
+winhandle  string
+winhandles Set<string>
+manage  void
+navigate void 
+switchTo void
+getCurrentURL String
+
+
+
+
+	2. basics of html => hypertext markup language
+
+		a. structure 
+		b. relations
+		c. tag, attribute and value
+		d. all tags and their responsibility 
+		e. attributes
+
+
+<html>
+	<head>
+		<title>this is demo</title>
+	</head>
+	<body>
+		<div>
+			<input>
+			</input>
+		</div>
+		<div id="abc">
+			<input>
+			</input>
+		</div>
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

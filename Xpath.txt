@@ -1,0 +1,85 @@
+
+
+Agenda
+	1. xpath
+		a. absolute xpath  	
+			a. will start with single /
+			b. toughest way to find webelement
+			c. maintenance is very hard
+			d. if there is any change in application all weblement path will be disturbed
+			e. no recommended  way
+		b. relative xpath
+			a. starts with //
+			b. easiest way to find the element
+			c. maintenance is also easy
+			d. recommended way to find the elements
+
+i stay in hi-tech city
+	Quality thought 
+1st may
+		come out
+			take left
+				drive 1 km
+					take left
+						4 road
+							3rd street
+								road
+								 3nd lane
+
+
+sharing location 
+
+using xpath
+
+1. tag name
+	//tag name
+	//button
+	you can find but tough to maintain
+2. tag and attribute
+	//tagname[@attributeName='value']
+
+
+
+
+
+<input class="abc" type="xyz2" name="hell2"></input>      || NO 
+<input class="abc1" type="xyz1" name="hell"></input>	  || No
+<input class="abc1" type="xyz2" name="hell"></input>	  || yes
+<button class="abc1" type="xyz1" name="hell1"></button>	  
+<button class="abc" type="xyz" name="hell"></button>
+<button class="abc1" type="xyz1" name="hell1"></button>
+
+3. tag and multiple attributes
+
+//tagname[@attribute1='value' or @attribute2='value']
+		true			true
+
+//input[@class='abc1' and @type='xyz2' and @name='hell1']
+	true			true
+
+4. dynamic elements
+	with the concept of text
+
+
+	a. plain text
+		//tagName[text()='value of text']
+		//div[text()='Apple iPhone 14 Plus (Blue, 128 GB)
+	b. contains text
+		//tagName[contains(text(),'value')]
+		//div[contains(text(),'14 Plus (Blue, 128 GB)')]
+	c. starts with
+		//tagName[starts-with(text(),'value')]
+
+https://the-internet.herokuapp.com/
+
+
+Assignment
+	1. find out all the webelements in different ways
+		by looking into the excel attached.
+
+
+
+
+
+
+

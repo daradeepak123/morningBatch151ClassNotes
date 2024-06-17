@@ -1,0 +1,55 @@
+
+
+Agenda
+	1. String introduction 
+		a. combination of character sequences
+
+'1' 'A' '@' 'f' ')' '-'
+
+
+		a. String functions
+			
+
+		a. String
+		b. StringBuffer
+		c. StringBuilder
+
+String add="QT!!@#123";
+
+
+Class   -> var methods
+
+String is a class    ->   methods variables
+
+Scanner is a class   -> depending on situation we are using it's methods
+
+
+String abc="hello";
+String bb="hi";
+String aa="hello";
+String cc="hi";
+
+
+String xyz=new String("hi");
+String xx=new String("hi");
+String yy=new String("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

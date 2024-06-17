@@ -1,0 +1,7 @@
+
+
+Agenda
+	1. PageObject model
+
+
+

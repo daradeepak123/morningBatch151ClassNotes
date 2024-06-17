@@ -1,0 +1,95 @@
+
+
+Agenda
+	1. Recap
+		core Java
+			what is main method
+			what is a method
+				method with parameter
+				method with return type
+				method overloading 
+			what is method's contribution in the programmins
+			variables
+				local
+				global
+				instance  
+			datatypes
+				primitive  
+				non primitive
+			static  
+			Object
+			object cross mapping
+			constructor 
+			constructor overloading
+				Employee class 
+					came to know what is the actual purpose of static and non static variables	
+					parameters when to use
+					constructors
+					parameter constructors
+
+				
+		basics of html
+		Locators
+		Selenium
+		FW (4 )
+		Maven
+		Git and Github Jenkins
+
+	2. Questions
+	3. Operators
+		a. Arithmetic operator
+			+ - * / %
+		10+10=20
+
+int a =1000;
+int b=500;
+int c=a%b;
+syso(c)
+
+
+		b. comparator operator
+			< > <= >= == !=
+		true/false
+
+100 <= 99  false
+
+int a=100;
+int b=1000;
+
+a > b  false
+100 > 1000  false
+
+a < b true
+
+
+		c. logical operator
+		d. assignment operator
+		e. incremental/decremental operator
+		f. shifter operators
+		g. ternary operator  
+
+
+
+package1
+	class1
+		Operators
+	class2	
+	class3
+packagen
+	classA
+		main method
+		object related to class1
+		call the methods
+		execute the methods
+	classB
+	classC
+
+
+Assignment
+	1. design a calculator 
+	2. Work with all the comparator operators
+		a. different class for methods
+		b. execution class for calling methods and execution
+		
+	
+

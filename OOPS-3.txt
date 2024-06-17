@@ -1,0 +1,99 @@
+
+
+Agenda
+	1. Encapsulation 
+		a. access modifiers
+			a. public
+			b. default
+			c. protected
+			d. private
+		b. setters and getters
+
+
+	2. Final
+
+
+
+public class A
+{
+
+public int a=100;
+int b=500;
+protected int c=1000;
+private int d=3000;
+
+
+public int hello(int abc)
+{
+syso(a);
+syso(b);
+syso(c);
+syso(d=abc);
+return d;
+}
+
+
+
+}
+
+
+bank
+
+
+public class account
+{
+ String name="QT";
+protected String address="AmeerPet";
+private int balance=500;
+
+
+public void withdraw(int wd)
+{
+
+if(wd<=bal)
+{
+syso(bal-wd+" please collect your cash");
+
+syso(bal+ "is your remaining balance");
+
+}
+else
+{
+syso("you don't have sufficient balance");
+}
+
+
+}
+
+
+
+}
+
+
+
+public class retrive
+{
+account o=new account();
+o.withdraw(500);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

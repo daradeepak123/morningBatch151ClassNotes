@@ -1,0 +1,67 @@
+
+
+
+Agenda
+	1. Variables
+
+		a. variable means a container
+		b. there are 3 types of variables
+			i. local variables  
+				1. variables created inside the method
+			ii.instance variables
+				1. variables created inside class and outside method without static keyword
+			iii.global variables
+				1. variables created inside class and outside method with static keyword
+
+
+	2. datatypes
+		a. premitive datatype
+			a. byte   -> which can store numbers    -127 to 128
+				byte b=100;
+					
+				b=120;
+				b=0;
+			b. short  -> which can store numbers    ~-32000 to ~32000
+				short s=1000;
+			c. int    -> which can store numbers    -2,147,483,648 to 2,147,483,647
+				int i=500;
+
+			d. long
+     				long ll=9999999999l;
+			e. float
+				float fl=100f;
+					100.00
+				float	IEEE 754 Floating-Point	3.4e-038 to 3.4e+038
+
+			f. double
+	
+				double d=3.333;
+				double	IEEE 754 Floating-Point	1.7e-308 to 1.7e+308
+
+			h. char  char ch='@';
+			i. boolean  boolean bool=true;
+		b. non premitive datatype
+			a. class
+			b. Arrays
+			c. Strings
+				String str="can store alpha numerics and special cH@rS____";
+
+water bottle =1lt;
+
+bottle=.5ml;
+
+bottle=.75
+
+
+Assignment
+	1. Create 10 methods 
+		each method will contain different data type
+		call all the methods to main method
+		
+
+
+
+
+
+
+

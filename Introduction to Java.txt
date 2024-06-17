@@ -1,0 +1,59 @@
+
+
+Agenda
+	1. Introduction to Java
+	2. Installing java
+
+
+	Java programing language
+
+Language
+
+
+English
+
+
+Tamil/kannada
+
+Vocal
+writing
+sign
+
+
+
+What can we do with Java
+	1. Web application design
+	2. Window based application
+	3. Mobile based apps
+	4. OS
+	5. Tools
+	6. Server SetUps
+
+Featuers of Java
+
+
+
+	1. Simple
+	2. Supports OOPS
+	3. Portable
+	4. Secure
+		exceptions
+	5. Independent
+	6. Multi threaded
+	7. Parallel executions
+
+JDK ---->   java developement kit
+
+
+
+
+
+
+1. CoreJava
+2. basics of html
+3. Selenium concepts
+4. TestNg
+5. Maven
+6. Frameworks
+7. git and github
+8. Jenkins

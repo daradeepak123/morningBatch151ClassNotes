@@ -1,0 +1,87 @@
+
+
+Agenda
+	1. Constructors with parameters
+		a. constructor overloading
+	2. COnstructors in EMployee class
+	3. Operators
+
+
+public class ABC
+{
+int a;
+ABC(int x)
+{
+a=x;
+}
+
+p s v m()
+{
+ABC cc=new ABC(500);
+
+ABC bb=new ABC(500);
+b.a=1000;
+ABC aa=new ABC(1000);
+}
+
+
+}
+
+
+
+public class hello()
+{
+int a;
+String str;
+
+hello(int x)    //1
+{
+}
+hello(String x) //2
+{
+}
+hello(int a,String x) //3
+{ 
+}
+hello() //4
+{
+}
+hello(String x,int a) //3
+{ 
+}
+hello(char x)    //1
+{
+}
+
+p s v m()
+{
+hello a=new hello('@');
+hello a=new hello(100,"welcom");
+hello a=new hello("welcom");
+hello a=new hello(100);
+hello a=new hello();
+hello a=new hello("welcom",100);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
