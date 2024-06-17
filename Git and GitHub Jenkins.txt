@@ -1,0 +1,63 @@
+
+
+
+Agenda	
+	1. Git and GitHub
+	2. Jenkins
+
+1   Registration page  10 30   completed    lead
+2   Login page 	10 10	completed
+3   DashBoard	10 10	completed
+4   Careers 	10 10	completed
+
+
+
+
+Problem 2
+
+
+
+
+1. Git and GitHub
+2. BitBucket
+3. TortoiseSVN 
+4. CodeHUb 
+
+
+
+Source Integration
+
+
+
+GIt download
+
+login into GitHub application
+
+Dit Download https://www.git-scm.com/download/win
+
+
+https://github.com/
+
+
+
+repository 
+	1. Local
+	2. remote  
+
+
+
+
+
+
+Hello
+
+
+
+
+
+
+
+
+
+
+
